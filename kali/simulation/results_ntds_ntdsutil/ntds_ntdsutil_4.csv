@@ -1,0 +1,2 @@
+timestamp,rule_id,rule_description,rule_level,agent_name,agent_id,agent_ip,src_ip,dst_ip
+2025-11-22T14:23:32.347Z,100071,Aizdomīga NTDS datubāzes IFM kopijas izveide ar ntdsutil (iespējama NTDS.dit eksfiltrācija),10,DC-2019,002,10.99.10.10,,10.99.10.10

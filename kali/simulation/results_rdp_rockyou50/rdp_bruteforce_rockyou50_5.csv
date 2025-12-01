@@ -1,0 +1,27 @@
+timestamp,rule_id,rule_description,rule_level,agent_name,agent_id,agent_ip,src_ip,dst_ip
+2025-11-21T21:31:22.060Z,100015,AD paroļu pārlase pret Kerberos (>=6 neveiksmīgi AS_REQ ar KDC_ERR_PREAUTH_FAILED 60s laikā uz vienu IP) tīklā,10,sensor,001,10.99.10.21,10.99.10.10,10.99.20.30
+2025-11-21T21:31:20.093Z,100015,AD paroļu pārlase pret Kerberos (>=6 neveiksmīgi AS_REQ ar KDC_ERR_PREAUTH_FAILED 60s laikā uz vienu IP) tīklā,10,sensor,001,10.99.10.21,10.99.10.10,10.99.20.30
+2025-11-21T21:31:20.713Z,100010,AD paroļu pārlases uzbrukums caur RDP no vienas IP adreses (>=6 nepareizi mēģinājumi 60 sekundēs),10,DESKTOP-9S8A4EK,005,10.99.20.11,10.99.20.30,10.99.20.11
+2025-11-21T21:31:16.032Z,100015,AD paroļu pārlase pret Kerberos (>=6 neveiksmīgi AS_REQ ar KDC_ERR_PREAUTH_FAILED 60s laikā uz vienu IP) tīklā,10,sensor,001,10.99.10.21,10.99.10.10,10.99.20.30
+2025-11-21T21:31:08.077Z,100015,AD paroļu pārlase pret Kerberos (>=6 neveiksmīgi AS_REQ ar KDC_ERR_PREAUTH_FAILED 60s laikā uz vienu IP) tīklā,10,sensor,001,10.99.10.21,10.99.10.10,10.99.20.30
+2025-11-21T21:31:10.448Z,100010,AD paroļu pārlases uzbrukums caur RDP no vienas IP adreses (>=6 nepareizi mēģinājumi 60 sekundēs),10,DESKTOP-9S8A4EK,005,10.99.20.11,10.99.20.30,10.99.20.11
+2025-11-21T21:31:02.100Z,100015,AD paroļu pārlase pret Kerberos (>=6 neveiksmīgi AS_REQ ar KDC_ERR_PREAUTH_FAILED 60s laikā uz vienu IP) tīklā,10,sensor,001,10.99.10.21,10.99.10.10,10.99.20.30
+2025-11-21T21:31:04.056Z,100015,AD paroļu pārlase pret Kerberos (>=6 neveiksmīgi AS_REQ ar KDC_ERR_PREAUTH_FAILED 60s laikā uz vienu IP) tīklā,10,sensor,001,10.99.10.21,10.99.10.10,10.99.20.30
+2025-11-21T21:31:04.114Z,100015,AD paroļu pārlase pret Kerberos (>=6 neveiksmīgi AS_REQ ar KDC_ERR_PREAUTH_FAILED 60s laikā uz vienu IP) tīklā,10,sensor,001,10.99.10.21,10.99.10.10,10.99.20.30
+2025-11-21T21:31:04.229Z,100010,AD paroļu pārlases uzbrukums caur RDP no vienas IP adreses (>=6 nepareizi mēģinājumi 60 sekundēs),10,DESKTOP-9S8A4EK,005,10.99.20.11,10.99.20.30,10.99.20.11
+2025-11-21T21:31:06.066Z,100015,AD paroļu pārlase pret Kerberos (>=6 neveiksmīgi AS_REQ ar KDC_ERR_PREAUTH_FAILED 60s laikā uz vienu IP) tīklā,10,sensor,001,10.99.10.21,10.99.10.10,10.99.20.30
+2025-11-21T21:30:58.108Z,100015,AD paroļu pārlase pret Kerberos (>=6 neveiksmīgi AS_REQ ar KDC_ERR_PREAUTH_FAILED 60s laikā uz vienu IP) tīklā,10,sensor,001,10.99.10.21,10.99.10.10,10.99.20.30
+2025-11-21T21:31:00.206Z,100015,AD paroļu pārlase pret Kerberos (>=6 neveiksmīgi AS_REQ ar KDC_ERR_PREAUTH_FAILED 60s laikā uz vienu IP) tīklā,10,sensor,001,10.99.10.21,10.99.10.10,10.99.20.30
+2025-11-21T21:31:18.059Z,100015,AD paroļu pārlase pret Kerberos (>=6 neveiksmīgi AS_REQ ar KDC_ERR_PREAUTH_FAILED 60s laikā uz vienu IP) tīklā,10,sensor,001,10.99.10.21,10.99.10.10,10.99.20.30
+2025-11-21T21:31:14.525Z,100010,AD paroļu pārlases uzbrukums caur RDP no vienas IP adreses (>=6 nepareizi mēģinājumi 60 sekundēs),10,DESKTOP-9S8A4EK,005,10.99.20.11,10.99.20.30,10.99.20.11
+2025-11-21T21:31:16.649Z,100010,AD paroļu pārlases uzbrukums caur RDP no vienas IP adreses (>=6 nepareizi mēģinājumi 60 sekundēs),10,DESKTOP-9S8A4EK,005,10.99.20.11,10.99.20.30,10.99.20.11
+2025-11-21T21:31:02.101Z,100010,AD paroļu pārlases uzbrukums caur RDP no vienas IP adreses (>=6 nepareizi mēģinājumi 60 sekundēs),10,DESKTOP-9S8A4EK,005,10.99.20.11,10.99.20.30,10.99.20.11
+2025-11-21T21:31:12.064Z,100015,AD paroļu pārlase pret Kerberos (>=6 neveiksmīgi AS_REQ ar KDC_ERR_PREAUTH_FAILED 60s laikā uz vienu IP) tīklā,10,sensor,001,10.99.10.21,10.99.10.10,10.99.20.30
+2025-11-21T21:31:14.042Z,100015,AD paroļu pārlase pret Kerberos (>=6 neveiksmīgi AS_REQ ar KDC_ERR_PREAUTH_FAILED 60s laikā uz vienu IP) tīklā,10,sensor,001,10.99.10.21,10.99.10.10,10.99.20.30
+2025-11-21T21:31:16.129Z,100015,AD paroļu pārlase pret Kerberos (>=6 neveiksmīgi AS_REQ ar KDC_ERR_PREAUTH_FAILED 60s laikā uz vienu IP) tīklā,10,sensor,001,10.99.10.21,10.99.10.10,10.99.20.30
+2025-11-21T21:31:08.306Z,100010,AD paroļu pārlases uzbrukums caur RDP no vienas IP adreses (>=6 nepareizi mēģinājumi 60 sekundēs),10,DESKTOP-9S8A4EK,005,10.99.20.11,10.99.20.30,10.99.20.11
+2025-11-21T21:31:10.031Z,100015,AD paroļu pārlase pret Kerberos (>=6 neveiksmīgi AS_REQ ar KDC_ERR_PREAUTH_FAILED 60s laikā uz vienu IP) tīklā,10,sensor,001,10.99.10.21,10.99.10.10,10.99.20.30
+2025-11-21T21:31:10.087Z,100015,AD paroļu pārlase pret Kerberos (>=6 neveiksmīgi AS_REQ ar KDC_ERR_PREAUTH_FAILED 60s laikā uz vienu IP) tīklā,10,sensor,001,10.99.10.21,10.99.10.10,10.99.20.30
+2025-11-21T21:30:58.057Z,100015,AD paroļu pārlase pret Kerberos (>=6 neveiksmīgi AS_REQ ar KDC_ERR_PREAUTH_FAILED 60s laikā uz vienu IP) tīklā,10,sensor,001,10.99.10.21,10.99.10.10,10.99.20.30
+2025-11-21T21:30:58.072Z,100010,AD paroļu pārlases uzbrukums caur RDP no vienas IP adreses (>=6 nepareizi mēģinājumi 60 sekundēs),10,DESKTOP-9S8A4EK,005,10.99.20.11,10.99.20.30,10.99.20.11
+2025-11-21T21:31:00.121Z,100015,AD paroļu pārlase pret Kerberos (>=6 neveiksmīgi AS_REQ ar KDC_ERR_PREAUTH_FAILED 60s laikā uz vienu IP) tīklā,10,sensor,001,10.99.10.21,10.99.10.10,10.99.20.30

@@ -1,0 +1,3 @@
+timestamp,rule_id,rule_description,rule_level,agent_name,agent_id,agent_ip,src_ip,dst_ip
+2025-11-21T22:44:50.907Z,100020,Aizdomīgs Kerberos servisa biļetes pieprasījums (iespējama viltota biļete / Kerberos uzbrukums),12,DC-2019,002,10.99.10.10,::ffff:10.99.20.30,10.99.10.10
+2025-11-21T22:44:51.018Z,100025,Aizdomīgs Kerberos TGS pieprasījums ar RC4 šifru (iespējams Kerberoasting tīklā),12,sensor,001,10.99.10.21,10.99.20.30,10.99.10.10

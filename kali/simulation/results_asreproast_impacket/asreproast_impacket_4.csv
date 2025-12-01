@@ -1,0 +1,2 @@
+timestamp,rule_id,rule_description,rule_level,agent_name,agent_id,agent_ip,src_ip,dst_ip
+2025-11-21T21:57:14.721Z,100030,Iespējams AS-REP Roasting,12,DC-2019,002,10.99.10.10,::ffff:10.99.20.30,10.99.10.10

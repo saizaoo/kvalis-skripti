@@ -1,0 +1,76 @@
+#cloud-config
+autoinstall:
+  version: 1
+  locale: en_US
+  keyboard:
+    layout: us
+  timezone: Europe/Riga
+
+  identity:
+    hostname: sensor
+    username: labadmin
+    password: "$6$rounds=4096$Ga2If4NVOaVpi3hf$.iqi6YrQ2yr2q0/kbpkNGjtrEUJYOS4Osusj/YTMI2dOctNzlpRzePFSEkUXr9Wcy0F9hBElfh0dThmZwmjxF1" # izmainiet paroli
+
+  network:
+    version: 2
+    ethernets:
+      ens34:
+        dhcp4: false
+        dhcp6: false
+        accept-ra: false
+        addresses: [10.99.10.21/24]
+        nameservers:
+          addresses: [10.99.10.10,8.8.8.8]
+        routes:
+          - to: 10.99.20.0/24
+            via: 10.99.10.254
+            metric: 50
+          - to: 10.99.99.0/30
+            via: 10.99.10.254
+            metric: 50
+        optional: true
+      ens33:
+        dhcp4: true
+        dhcp6: false
+        dhcp4-overrides:
+          route-metric: 10
+        optional: true
+
+  apt:
+    preserve_sources_list: false
+    mirror-selection:
+      primary:
+        - uri: "http://azure.archive.ubuntu.com/ubuntu"
+          arches: [amd64]
+        - uri: "http://archive.ubuntu.com/ubuntu"
+          arches: [amd64]
+
+  ssh:
+    install-server: true
+    # pievienojiet SSH publisko atslēgu:
+    # authorized-keys:
+    #  - ssh-ed25519 ... 
+    allow-pw: false
+
+  storage:
+    layout: { name: direct }
+
+  late-commands:
+    - curtin in-target --target=/target -- systemctl restart systemd-timesyncd
+    - curtin in-target --target=/target -- sed -i 's/^#\?PasswordAuthentication.*/PasswordAuthentication no/' /etc/ssh/sshd_config
+
+disable_root: true
+
+package_update: true
+package_upgrade: true
+packages: [open-vm-tools, curl, git, htop, tcpdump, net-tools, vim]
+
+write_files:
+  - path: /etc/apt/apt.conf.d/99-no-auto-upgrades
+    content: |
+      APT::Periodic::Enable "0";
+      APT::Periodic::Update-Package-Lists "0";
+      APT::Periodic::Unattended-Upgrade "0";
+
+runcmd:
+  - systemctl enable --now open-vm-tools

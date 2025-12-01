@@ -1,0 +1,2 @@
+timestamp,rule_id,rule_description,rule_level,agent_name,agent_id,agent_ip,src_ip,dst_ip
+2025-11-22T13:57:43.377Z,100070,Aizdomīga NTDS.dit kopēšana no VSS ēnkopijas (iespējama NTDS datubāzes eksfiltrācija),12,DC-2019,002,10.99.10.10,,10.99.10.10

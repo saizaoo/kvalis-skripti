@@ -1,0 +1,2 @@
+timestamp,rule_id,rule_description,rule_level,agent_name,agent_id,agent_ip,src_ip,dst_ip
+2025-11-21T23:10:21.712Z,100060,Aizdomīga NTLM tīkla pieteikšanās ar iebūvēto Administrator kontu (iespējams Pass the Hash),12,DC-2019,002,10.99.10.10,10.99.20.30,10.99.10.10

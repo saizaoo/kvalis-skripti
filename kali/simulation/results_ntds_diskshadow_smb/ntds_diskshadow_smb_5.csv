@@ -1,0 +1,5 @@
+timestamp,rule_id,rule_description,rule_level,agent_name,agent_id,agent_ip,src_ip,dst_ip
+2025-11-22T19:39:16.243Z,100072,Aizdomīga diskshadow palaišana ar skripta parametru (iespējama VSS ēnkopiju ļaunprātīga izmantošana),10,DC-2019,002,10.99.10.10,,10.99.10.10
+2025-11-22T19:39:17.779Z,100075,Aizdomīga NTDS.dit faila piekļuve pa SMB (iespējama NTDS datubāzes eksfiltrācija tīklā),12,sensor,001,10.99.10.21,10.99.20.30,10.99.10.10
+2025-11-22T19:39:16.852Z,100073,Aizdomīga diskshadow palaišana no komandrindas / attālās izpildes rīka (iespējama VSS izmantošana piekļuves datu iegūšanai),10,DC-2019,002,10.99.10.10,,10.99.10.10
+2025-11-22T19:39:17.713Z,100073,Aizdomīga diskshadow palaišana no komandrindas / attālās izpildes rīka (iespējama VSS izmantošana piekļuves datu iegūšanai),10,DC-2019,002,10.99.10.10,,10.99.10.10
